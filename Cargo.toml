@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["dignifiedquire <me@dignifiedquire.com>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/filecoin-project/rust-filecoin-proofs-api"
+repository = "https://github.com/plotozhu/rust-filecoin-proofs-api"
 readme = "README.md"
 
 [dependencies]
@@ -13,6 +13,6 @@ serde = "1.0.104"
 
 [dependencies.filecoin-proofs-v1]
 version = "1.0.0-alpha.0"
-git = "https://github.com/filecoin-project/rust-fil-proofs"
-rev = "4e1ef67224eb29dc8a19a4bc31ff7b0d4c7b717f"
+git = "https://github.com/plotozhu/rust-fil-proofs"
+rev = "4e6db11b16c114294e92436a7ca5eb6d9d2caeb3"
 package = "filecoin-proofs"
