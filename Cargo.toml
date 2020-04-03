@@ -14,5 +14,5 @@ serde = "1.0.104"
 [dependencies.filecoin-proofs-v1]
 version = "1.0.0-alpha.0"
 git = "https://github.com/plotozhu/rust-fil-proofs"
-rev = "ae0a93bb9ac6338f0708bc14b0959a642dffc3ef"
+rev = "8cab191dfb15dd336d80ffc318d691a6202695f5"
 package = "filecoin-proofs"
