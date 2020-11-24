@@ -13,7 +13,7 @@ anyhow = "1.0.26"
 bincode = "1.1.2"
 serde = "1.0.104"
 filecoin-proofs-v1 = { package = "filecoin-proofs", version = "5.4.0", default-features = false, features = ["gpu"] ,path = "../rust-fil-local/rust-file/filecoin-proofs" }
-bellperson = { version = "0.11", default-features = false, features = ["gpu"] ,path = "../rust-fil-local/rust-file/bellperson"}
+bellperson = { version = "0.12", default-features = false, features = ["gpu"] ,path = "../rust-fil-local/bellperson"}
 
 [features]
 default = ["pairing"]
